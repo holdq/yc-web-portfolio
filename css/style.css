@@ -1,0 +1,18 @@
+body { 
+background-color: #f8f9fa; 
+margin: 0; 
+padding: 0; 
+} 
+/* 現代盒模型與置中排版 */ 
+.main-layout { 
+max-width: 800px; 
+margin: 40px auto; /* 核心：上下距離 40px，左右自動置中平衡 */ 
+padding: 30px; 
+background-color: #ffffff; 
+border-radius: 8px; 
+box-shadow: 0 4px 12px rgba(0,0,0,0.05); 
+} 
+.text-accent { 
+color: #a73707; /* 品牌藍 */ 
+font-weight: bold; 
+} 
